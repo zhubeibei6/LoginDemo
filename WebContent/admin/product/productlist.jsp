@@ -27,7 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <section>
       <h2></h2>
       <form action="method!productlist"  method="post">
-      <input name="name" type="text"  value="${name }" class="textbox" placeholder="书籍名"/>
+      <input name="name" type="text"  value="${name }" class="textbox" placeholder="类名"/>
         商品分类：<select name="fenlei" class="select" >
       <option value="">--所有--</option>
        <c:forEach items="${fenleilist}"  var="bean2">
